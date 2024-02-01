@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-01T15:14:03 IST" name="Testing Bigdeals.lk" finished-at="2024-02-01T15:19:22 IST" duration-ms="319514">
+    <groups>
+    </groups>
+    <test started-at="2024-02-01T15:14:03 IST" name="tests" finished-at="2024-02-01T15:19:22 IST" duration-ms="319514">
+      <class name="org_bigdeals_tests.Bigdeals_Login">
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:org_bigdeals_tests.Bigdeals_Login@35dab4eb]" started-at="2024-02-01T15:14:10 IST" name="LaunchBrowser" finished-at="2024-02-01T15:14:14 IST" duration-ms="3433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method is-config="true" signature="launchHomepage()[pri:0, instance:org_bigdeals_tests.Bigdeals_Login@35dab4eb]" started-at="2024-02-01T15:14:19 IST" name="launchHomepage" finished-at="2024-02-01T15:14:22 IST" duration-ms="3267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchHomepage -->
+        <test-method signature="verifyHomepage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org_bigdeals_tests.Bigdeals_Login@35dab4eb]" started-at="2024-02-01T15:14:22 IST" name="verifyHomepage" data-provider="Authentication" finished-at="2024-02-01T15:14:44 IST" duration-ms="22271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pathitharun@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[79796168]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sai Tharun]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepage -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:org_bigdeals_tests.Bigdeals_Login@35dab4eb]" started-at="2024-02-01T15:14:44 IST" name="logout" finished-at="2024-02-01T15:14:45 IST" duration-ms="1012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org_bigdeals_tests.Bigdeals_Login@35dab4eb]" started-at="2024-02-01T15:19:21 IST" name="closeBrowser" finished-at="2024-02-01T15:19:21 IST" duration-ms="535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org_bigdeals_tests.Bigdeals_Login -->
+      <class name="org_bigdeals_tests.Bigdeals_HomePageValidation">
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:org_bigdeals_tests.Bigdeals_HomePageValidation@5e2c3d18]" started-at="2024-02-01T15:14:07 IST" name="LaunchBrowser" finished-at="2024-02-01T15:14:10 IST" duration-ms="3419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method is-config="true" signature="launchHomepage()[pri:0, instance:org_bigdeals_tests.Bigdeals_HomePageValidation@5e2c3d18]" started-at="2024-02-01T15:16:11 IST" name="launchHomepage" finished-at="2024-02-01T15:16:13 IST" duration-ms="2791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchHomepage -->
+        <test-method signature="verifyHomepage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org_bigdeals_tests.Bigdeals_HomePageValidation@5e2c3d18]" started-at="2024-02-01T15:16:13 IST" name="verifyHomepage" data-provider="TabValidation" finished-at="2024-02-01T15:16:27 IST" duration-ms="13767" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Electronics]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Electronics]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[electronics]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepage -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:org_bigdeals_tests.Bigdeals_HomePageValidation@5e2c3d18]" started-at="2024-02-01T15:16:27 IST" name="logout" finished-at="2024-02-01T15:16:28 IST" duration-ms="1015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="launchHomepage()[pri:0, instance:org_bigdeals_tests.Bigdeals_HomePageValidation@5e2c3d18]" started-at="2024-02-01T15:16:28 IST" name="launchHomepage" finished-at="2024-02-01T15:16:29 IST" duration-ms="1069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchHomepage -->
+        <test-method signature="verifyHomepage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org_bigdeals_tests.Bigdeals_HomePageValidation@5e2c3d18]" started-at="2024-02-01T15:16:29 IST" name="verifyHomepage" data-provider="TabValidation" finished-at="2024-02-01T15:16:43 IST" duration-ms="13764" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Phones & Tabs]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Phones & Tabs]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[phones-tablets]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepage -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:org_bigdeals_tests.Bigdeals_HomePageValidation@5e2c3d18]" started-at="2024-02-01T15:16:43 IST" name="logout" finished-at="2024-02-01T15:16:44 IST" duration-ms="1016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="launchHomepage()[pri:0, instance:org_bigdeals_tests.Bigdeals_HomePageValidation@5e2c3d18]" started-at="2024-02-01T15:16:44 IST" name="launchHomepage" finished-at="2024-02-01T15:16:45 IST" duration-ms="1039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchHomepage -->
+        <test-method signature="verifyHomepage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org_bigdeals_tests.Bigdeals_HomePageValidation@5e2c3d18]" started-at="2024-02-01T15:16:45 IST" name="verifyHomepage" data-provider="TabValidation" finished-at="2024-02-01T15:16:59 IST" duration-ms="13889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Home & Kitchen]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Home & Kitchen]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[homeneeds]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepage -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:org_bigdeals_tests.Bigdeals_HomePageValidation@5e2c3d18]" started-at="2024-02-01T15:16:59 IST" name="logout" finished-at="2024-02-01T15:17:00 IST" duration-ms="1005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="launchHomepage()[pri:0, instance:org_bigdeals_tests.Bigdeals_HomePageValidation@5e2c3d18]" started-at="2024-02-01T15:17:00 IST" name="launchHomepage" finished-at="2024-02-01T15:17:01 IST" duration-ms="1136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchHomepage -->
+        <test-method signature="verifyHomepage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org_bigdeals_tests.Bigdeals_HomePageValidation@5e2c3d18]" started-at="2024-02-01T15:17:01 IST" name="verifyHomepage" data-provider="TabValidation" finished-at="2024-02-01T15:17:15 IST" duration-ms="14296" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Fashion]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Fashion]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fashion]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepage -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:org_bigdeals_tests.Bigdeals_HomePageValidation@5e2c3d18]" started-at="2024-02-01T15:17:15 IST" name="logout" finished-at="2024-02-01T15:17:16 IST" duration-ms="1002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="launchHomepage()[pri:0, instance:org_bigdeals_tests.Bigdeals_HomePageValidation@5e2c3d18]" started-at="2024-02-01T15:17:16 IST" name="launchHomepage" finished-at="2024-02-01T15:17:18 IST" duration-ms="1249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchHomepage -->
+        <test-method signature="verifyHomepage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org_bigdeals_tests.Bigdeals_HomePageValidation@5e2c3d18]" started-at="2024-02-01T15:17:18 IST" name="verifyHomepage" data-provider="TabValidation" finished-at="2024-02-01T15:17:32 IST" duration-ms="14589" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Health & Beauty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Health & Beauty]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[health-beauty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepage -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:org_bigdeals_tests.Bigdeals_HomePageValidation@5e2c3d18]" started-at="2024-02-01T15:17:32 IST" name="logout" finished-at="2024-02-01T15:17:33 IST" duration-ms="1004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="launchHomepage()[pri:0, instance:org_bigdeals_tests.Bigdeals_HomePageValidation@5e2c3d18]" started-at="2024-02-01T15:17:33 IST" name="launchHomepage" finished-at="2024-02-01T15:17:34 IST" duration-ms="1144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchHomepage -->
+        <test-method signature="verifyHomepage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org_bigdeals_tests.Bigdeals_HomePageValidation@5e2c3d18]" started-at="2024-02-01T15:17:34 IST" name="verifyHomepage" data-provider="TabValidation" finished-at="2024-02-01T15:17:49 IST" duration-ms="14643" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Baby & Kids]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Baby & Kids]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[baby-kids]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepage -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:org_bigdeals_tests.Bigdeals_HomePageValidation@5e2c3d18]" started-at="2024-02-01T15:17:49 IST" name="logout" finished-at="2024-02-01T15:17:50 IST" duration-ms="1004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="launchHomepage()[pri:0, instance:org_bigdeals_tests.Bigdeals_HomePageValidation@5e2c3d18]" started-at="2024-02-01T15:17:50 IST" name="launchHomepage" finished-at="2024-02-01T15:17:51 IST" duration-ms="1109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchHomepage -->
+        <test-method signature="verifyHomepage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org_bigdeals_tests.Bigdeals_HomePageValidation@5e2c3d18]" started-at="2024-02-01T15:17:51 IST" name="verifyHomepage" data-provider="TabValidation" finished-at="2024-02-01T15:18:06 IST" duration-ms="14816" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sports & Fitness]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sports & Fitness]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sport-fitness]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepage -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:org_bigdeals_tests.Bigdeals_HomePageValidation@5e2c3d18]" started-at="2024-02-01T15:18:06 IST" name="logout" finished-at="2024-02-01T15:18:07 IST" duration-ms="1006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="launchHomepage()[pri:0, instance:org_bigdeals_tests.Bigdeals_HomePageValidation@5e2c3d18]" started-at="2024-02-01T15:18:07 IST" name="launchHomepage" finished-at="2024-02-01T15:18:08 IST" duration-ms="1065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchHomepage -->
+        <test-method signature="verifyHomepage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org_bigdeals_tests.Bigdeals_HomePageValidation@5e2c3d18]" started-at="2024-02-01T15:18:08 IST" name="verifyHomepage" data-provider="TabValidation" finished-at="2024-02-01T15:18:23 IST" duration-ms="15143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Other]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Other]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Other]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepage -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:org_bigdeals_tests.Bigdeals_HomePageValidation@5e2c3d18]" started-at="2024-02-01T15:18:23 IST" name="logout" finished-at="2024-02-01T15:18:24 IST" duration-ms="1012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org_bigdeals_tests.Bigdeals_HomePageValidation@5e2c3d18]" started-at="2024-02-01T15:19:20 IST" name="closeBrowser" finished-at="2024-02-01T15:19:21 IST" duration-ms="577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org_bigdeals_tests.Bigdeals_HomePageValidation -->
+      <class name="org_bigdeals_tests.Bigdeals_CheckoutShoppingCartValidation">
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:org_bigdeals_tests.Bigdeals_CheckoutShoppingCartValidation@18271936]" started-at="2024-02-01T15:14:03 IST" name="LaunchBrowser" finished-at="2024-02-01T15:14:07 IST" duration-ms="4315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method is-config="true" signature="launchHomepage()[pri:0, instance:org_bigdeals_tests.Bigdeals_CheckoutShoppingCartValidation@18271936]" started-at="2024-02-01T15:14:45 IST" name="launchHomepage" finished-at="2024-02-01T15:14:49 IST" duration-ms="3264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchHomepage -->
+        <test-method signature="verifyCheckOutItemShoppingCartAfterAddingItem(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org_bigdeals_tests.Bigdeals_CheckoutShoppingCartValidation@18271936]" started-at="2024-02-01T15:14:49 IST" name="verifyCheckOutItemShoppingCartAfterAddingItem" data-provider="CheckOutTestData" finished-at="2024-02-01T15:16:10 IST" duration-ms="80904" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cake]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cake]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[search/result/list?key=]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sai]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pathi]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[pathitharun@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[7093804765]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2-2-645, main road]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckOutItemShoppingCartAfterAddingItem -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:org_bigdeals_tests.Bigdeals_CheckoutShoppingCartValidation@18271936]" started-at="2024-02-01T15:16:10 IST" name="logout" finished-at="2024-02-01T15:16:11 IST" duration-ms="1012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org_bigdeals_tests.Bigdeals_CheckoutShoppingCartValidation@18271936]" started-at="2024-02-01T15:19:19 IST" name="closeBrowser" finished-at="2024-02-01T15:19:20 IST" duration-ms="731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org_bigdeals_tests.Bigdeals_CheckoutShoppingCartValidation -->
+      <class name="org_bigdeals_tests.Bigdeals_ShoppingCartValidation">
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:org_bigdeals_tests.Bigdeals_ShoppingCartValidation@2cb4893b]" started-at="2024-02-01T15:14:14 IST" name="LaunchBrowser" finished-at="2024-02-01T15:14:17 IST" duration-ms="3656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method is-config="true" signature="launchHomepage()[pri:0, instance:org_bigdeals_tests.Bigdeals_ShoppingCartValidation@2cb4893b]" started-at="2024-02-01T15:18:24 IST" name="launchHomepage" finished-at="2024-02-01T15:18:27 IST" duration-ms="2934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchHomepage -->
+        <test-method signature="verifyShoppingCartAfterAddingItem(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org_bigdeals_tests.Bigdeals_ShoppingCartValidation@2cb4893b]" started-at="2024-02-01T15:18:27 IST" name="verifyShoppingCartAfterAddingItem" data-provider="SearchTest" finished-at="2024-02-01T15:19:19 IST" duration-ms="52343" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cake]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cake]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[search/result/list?key=]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyShoppingCartAfterAddingItem -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:org_bigdeals_tests.Bigdeals_ShoppingCartValidation@2cb4893b]" started-at="2024-02-01T15:19:19 IST" name="logout" finished-at="2024-02-01T15:19:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org_bigdeals_tests.Bigdeals_ShoppingCartValidation@2cb4893b]" started-at="2024-02-01T15:19:21 IST" name="closeBrowser" finished-at="2024-02-01T15:19:22 IST" duration-ms="685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org_bigdeals_tests.Bigdeals_ShoppingCartValidation -->
+    </test> <!-- tests -->
+  </suite> <!-- Testing Bigdeals.lk -->
+</testng-results>

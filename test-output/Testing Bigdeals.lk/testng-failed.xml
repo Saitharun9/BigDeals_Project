@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Testing Bigdeals.lk]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="tests(failed)">
+    <classes>
+      <class name="org_bigdeals_tests.Bigdeals_CheckoutShoppingCartValidation">
+        <methods>
+          <include name="LaunchBrowser"/>
+          <include name="launchHomepage"/>
+          <include name="closeBrowser"/>
+          <include name="logout"/>
+          <include name="verifyCheckOutItemShoppingCartAfterAddingItem" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org_bigdeals_tests.Bigdeals_CheckoutShoppingCartValidation -->
+    </classes>
+  </test> <!-- tests(failed) -->
+</suite> <!-- Failed suite [Testing Bigdeals.lk] -->
